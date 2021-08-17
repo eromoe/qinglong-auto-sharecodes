@@ -3,10 +3,10 @@
 - 方式一：容器内执行
 
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/liuqitoday/qinglong-auto-sharecodes/master/one-key.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/eromoe/qinglong-auto-sharecodes/master/one-key.sh)"
 ```
 - 方式二：docker宿主机执行
 
 ```
-docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/liuqitoday/qinglong-auto-sharecodes/master/one-key.sh)"
+docker exec -it qinglong bash -c "$(curl -fsSL https://raw.githubusercontent.com/eromoe/qinglong-auto-sharecodes/master/one-key.sh)"
 ```
