@@ -22,7 +22,7 @@ fi
 chmod 755 $code_shell_path
 
 # 替换 code.sh 中的仓库作者名
-echo -n "输入你的jd_scripts仓库作者名(默认为JDHelloWorld):"
+echo -n "输入你的jd_scripts仓库作者名(默认为zero205_JD_tencent_scf):"
 read -r repoAuthor
 repoAuthor=${repoAuthor:-'zero205_JD_tencent_scf'}
 sed -i "s/chinnkarahoi_jd_scripts/$repoAuthor/g" $code_shell_path
