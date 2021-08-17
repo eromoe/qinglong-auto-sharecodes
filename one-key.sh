@@ -24,8 +24,8 @@ chmod 755 $code_shell_path
 # 替换 code.sh 中的仓库作者名
 echo -n "输入你的jd_scripts仓库作者名(默认为JDHelloWorld):"
 read -r repoAuthor
-repoAuthor=${repoAuthor:-'JDHelloWorld'}
-sed -i "s/chinnkarahoi/$repoAuthor/g" $code_shell_path
+repoAuthor=${repoAuthor:-'zero205_JD_tencent_scf'}
+sed -i "s/chinnkarahoi_jd_scripts/$repoAuthor/g" $code_shell_path
 
 # 将 code.sh 添加到定时任务
 if [ "$(grep -c code.sh /ql/config/crontab.list)" = 0 ]; then
